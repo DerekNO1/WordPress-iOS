@@ -273,7 +273,6 @@ import "./ScreenshotFastfile"
       output_directory: "../build/",
       derived_data_path: "../derived-data/alpha/",
       export_team_id: ENV["INT_EXPORT_TEAM_ID"],
-      xcargs: "COMPILER_INDEX_STORE_ENABLE=NO",
       export_options: { method: "enterprise" })
 
     sh("mv ../../build/WordPress.ipa \"../../build/WordPress Alpha.ipa\"")
